@@ -7,7 +7,7 @@ This project is a clone of the Apple AirPods Pro website, implemented using HTML
 
 ## Demo
 
-Insert gif or link to demo
+https://apple-airpods-pro-website-clone.vercel.app/
 
 
 ## Features
