@@ -1,15 +1,19 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap"); */
+
 @font-face {
-  font-family: apple pro;
-  src: url(/sf-pro-display_bold.ttf) format("truetype");
+  font-family:  apple pro;
+  src: url(/sf-pro-display_bold.woff2);
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Anek Devanagari", sans-serif; */
   font-family: apple pro;
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 body {
   background: #000;
 }
@@ -213,18 +217,18 @@ section {
 
 /* SECTION #4 */
 .section-04 .text {
-  width: 380px;
+  width: 340px;
   position: absolute;
   font-size: 20px;
   font-weight: 600;
 }
 .section-04-1 .text {
-  left: 22%;
+  left: 14%;
   bottom: 40px;
 }
 .section-04-2 .text {
   width: 500px;
-  left: 22%;
+  left: 25%;
   bottom: 125px;
 }
 .section-04-3 .text {
@@ -256,9 +260,9 @@ section {
 }
 
 .section-05-2 .text {
-  width: 400px;
-  right: 11%;
-  bottom: 250px;
+  width: 375px;
+  right: 10%;
+  bottom: 270px;
   font-size: 20px;
 }
 
@@ -267,14 +271,17 @@ section {
   top: 25%;
 }
 
-/*-------------------------------------------------------------*/
 /* SECTION #6 */
 .section-06 {
   padding-bottom: 0;
 }
+.section-06 img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
 .section-06 .text {
-  /* background-color: red; */
-  width: 450px;
+  width: 490px;
   position: absolute;
   left: 10%;
   bottom: 160px;
@@ -287,6 +294,4 @@ section {
   font-size: 20px;
   font-weight: 700;
 }
-
-
 
